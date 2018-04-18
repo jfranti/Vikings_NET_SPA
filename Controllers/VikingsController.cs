@@ -23,7 +23,7 @@ namespace VikingApp.Controllers
                 Title = "",
                 Name = Names[rng.Next(Names.Length)] + " " + Names[new Random().Next(Names.Length) + "son",
                 Nation = "Denmark",
-                Kills = 0
+                Raids = 0
             });
         }
 
@@ -32,7 +32,7 @@ namespace VikingApp.Controllers
             public string Title { get; set; }
             public string Name { get; set; }
             public string Nation { get; set; }
-            public int Kills { get; set; }
+            public int Raids { get; set; }
         }
     }
 }
