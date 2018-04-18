@@ -29,8 +29,8 @@ import { VikingsComponent } from './components/vikings/vikings.component';
             { path: 'home', component: HomeComponent },
             { path: 'counter', component: CounterComponent },
             { path: 'fetch-data', component: FetchDataComponent },
-            { path: '**', redirectTo: 'home' },
-            { path: 'vikings', component: VikingsComponent }
+            { path: 'vikings', component: VikingsComponent },
+            { path: '**', redirectTo: 'home' }
         ])
     ]
 })

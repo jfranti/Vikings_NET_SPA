@@ -21,7 +21,7 @@ namespace VikingApp.Controllers
             return Enumerable.Range(1, 5).Select(index => new Viking
             {
                 Title = "",
-                Name = Names[rng.Next(Names.Length)] + " " + Names[new Random().Next(Names.Length) + "son",
+                Name = Names[rng.Next(Names.Length)] + " " + Names[new Random().Next(Names.Length)] + "son",
                 Nation = "Denmark",
                 Raids = 0
             });
