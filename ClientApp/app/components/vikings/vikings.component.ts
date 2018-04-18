@@ -5,7 +5,7 @@ import { Http } from '@angular/http';
     selector: 'vikings',
     templateUrl: './vikings.component.html'
 })
-export class VikingComponent {
+export class VikingsComponent {
     public vikings: Viking[];
 
     constructor(http: Http, @Inject('BASE_URL') baseUrl: string) {
