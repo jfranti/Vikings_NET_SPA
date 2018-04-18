@@ -1,0 +1,24 @@
+<h1>Generate some Vikings</h1>
+
+<p>This component loads some generated vikings from the server.</p>
+
+<p *ngIf="!vikings"><em>Loading...</em></p>
+
+<table class='table' *ngIf="vikings">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Name</th>
+            <th>Nation</th>
+            <th>Raids</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let viking of vikings">
+            <td>{{ viking.title }}</td>
+            <td>{{ viking.name }}</td>
+            <td>{{ viking.nation }}</td>
+            <td>{{ viking.raids }}</td>
+        </tr>
+    </tbody>
+</table>
